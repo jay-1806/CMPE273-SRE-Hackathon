@@ -1,0 +1,42 @@
+{
+  "device_type": "OilAndGas",
+  "description": "Oil and gas extraction and processing equipment",
+  "metrics": {
+    "temperature": {
+      "unit": "celsius",
+      "normal_range": [80, 110],
+      "warning_threshold": 125,
+      "critical_threshold": 145
+    },
+    "pressure": {
+      "unit": "psi",
+      "normal_range": [250, 350],
+      "warning_threshold": 380,
+      "critical_threshold": 420
+    },
+    "vibration": {
+      "unit": "mm/s",
+      "normal_range": [0.7, 1.5],
+      "warning_threshold": 1.8,
+      "critical_threshold": 2.5
+    },
+    "power_output": {
+      "unit": "kW",
+      "normal_range": [3000, 4000],
+      "warning_threshold": 2500,
+      "critical_threshold": 2000
+    },
+    "efficiency": {
+      "unit": "percent",
+      "normal_range": [80, 90],
+      "warning_threshold": 78,
+      "critical_threshold": 72
+    }
+  },
+  "maintenance_schedule": {
+    "routine_inspection": "7 days",
+    "deep_maintenance": "60 days",
+    "part_replacement": "180 days"
+  },
+  "tags": ["oil", "gas", "extraction", "petrochemical"]
+}

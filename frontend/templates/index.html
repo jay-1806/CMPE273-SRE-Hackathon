@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SRE Tier-0 Monitoring Dashboard</title>
+    <link rel="stylesheet" href="/static/css/styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="dashboard-header">
+        <div class="container">
+            <div class="header-content">
+                <h1>SRE Tier-0 Monitoring Dashboard</h1>
+                <div class="user-info">
+                    <span id="userName">Loading...</span>
+                    <button id="logoutBtn" class="btn btn-secondary">Logout</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Dashboard -->
+    <main class="dashboard-main">
+        <div class="container">
+            <!-- System Overview -->
+            <section class="dashboard-section">
+                <h2>System Overview</h2>
+                <div class="metrics-grid">
+                    <div class="metric-card">
+                        <div class="metric-icon">📊</div>
+                        <div class="metric-content">
+                            <h3>Total Devices</h3>
+                            <p class="metric-value" id="totalDevices">-</p>
+                        </div>
+                    </div>
+
+                    <div class="metric-card metric-success">
+                        <div class="metric-icon">✅</div>
+                        <div class="metric-content">
+                            <h3>Online</h3>
+                            <p class="metric-value" id="onlineDevices">-</p>
+                        </div>
+                    </div>
+
+                    <div class="metric-card metric-warning">
+                        <div class="metric-icon">⚠️</div>
+                        <div class="metric-content">
+                            <h3>Warning</h3>
+                            <p class="metric-value" id="warningDevices">-</p>
+                        </div>
+                    </div>
+
+                    <div class="metric-card metric-error">
+                        <div class="metric-icon">❌</div>
+                        <div class="metric-content">
+                            <h3>Error</h3>
+                            <p class="metric-value" id="errorDevices">-</p>
+                        </div>
+                    </div>
+
+                    <div class="metric-card">
+                        <div class="metric-icon">🏢</div>
+                        <div class="metric-content">
+                            <h3>Total Sites</h3>
+                            <p class="metric-value" id="totalSites">-</p>
+                        </div>
+                    </div>
+
+                    <div class="metric-card metric-info">
+                        <div class="metric-icon">💚</div>
+                        <div class="metric-content">
+                            <h3>Health</h3>
+                            <p class="metric-value" id="healthPercentage">-</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Regions -->
+            <section class="dashboard-section">
+                <h2>Regional Status</h2>
+                <div class="region-grid">
+                    <div class="region-card" id="region1Card">
+                        <h3>Region 1</h3>
+                        <div class="region-status" id="region1Status">
+                            <span class="status-badge">-</span>
+                        </div>
+                        <div class="region-metrics">
+                            <p>Devices: <strong id="region1Devices">-</strong></p>
+                            <p>Healthy: <strong id="region1Healthy">-</strong></p>
+                            <p>Latency: <strong id="region1Latency">-</strong> ms</p>
+                        </div>
+                    </div>
+
+                    <div class="region-card" id="region2Card">
+                        <h3>Region 2</h3>
+                        <div class="region-status" id="region2Status">
+                            <span class="status-badge">-</span>
+                        </div>
+                        <div class="region-metrics">
+                            <p>Devices: <strong id="region2Devices">-</strong></p>
+                            <p>Healthy: <strong id="region2Healthy">-</strong></p>
+                            <p>Latency: <strong id="region2Latency">-</strong> ms</p>
+                        </div>
+                    </div>
+
+                    <div class="failover-controls">
+                        <h3>Failover Simulation</h3>
+                        <button id="failoverBtn" class="btn btn-warning">Simulate Failover</button>
+                        <p class="text-muted" id="failoverStatus">Ready to test failover</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Device Distribution -->
+            <section class="dashboard-section">
+                <h2>Device Type Distribution</h2>
+                <div class="device-types-grid" id="deviceTypesGrid">
+                    <!-- Will be populated by JavaScript -->
+                </div>
+            </section>
+
+            <!-- Sites Overview -->
+            <section class="dashboard-section">
+                <h2>Sites Overview</h2>
+                <div class="sites-table-container">
+                    <table class="sites-table">
+                        <thead>
+                            <tr>
+                                <th>Site ID</th>
+                                <th>Region</th>
+                                <th>Total Devices</th>
+                                <th>Online</th>
+                                <th>Warning</th>
+                                <th>Error</th>
+                                <th>Avg Temp</th>
+                                <th>Avg Efficiency</th>
+                            </tr>
+                        </thead>
+                        <tbody id="sitesTableBody">
+                            <tr>
+                                <td colspan="8">Loading...</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+            <!-- Log Analysis -->
+            <section class="dashboard-section">
+                <h2>Log Analysis</h2>
+                <div class="log-analysis-container">
+                    <button id="analyzeLogsBtn" class="btn btn-primary">Analyze Logs</button>
+                    <button id="generateLogsBtn" class="btn btn-secondary">Generate Sample Logs</button>
+
+                    <div id="logAnalysisResults" class="log-results" style="display: none;">
+                        <h3>Top Error IPs</h3>
+                        <table class="log-table">
+                            <thead>
+                                <tr>
+                                    <th>Rank</th>
+                                    <th>IP Address</th>
+                                    <th>Error Count</th>
+                                    <th>Percentage</th>
+                                </tr>
+                            </thead>
+                            <tbody id="errorIpsTableBody">
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </section>
+
+            <!-- AI Assistant -->
+            <section class="dashboard-section">
+                <h2>AI Assistant (Cohere)</h2>
+                <div class="ai-container">
+                    <div class="ai-query">
+                        <input type="text" id="aiQueryInput" placeholder="Ask about your system... (e.g., 'What is the overall system health?')">
+                        <button id="aiQueryBtn" class="btn btn-primary">Ask AI</button>
+                    </div>
+                    <div id="aiResponse" class="ai-response" style="display: none;">
+                        <h4>AI Response:</h4>
+                        <div id="aiResponseText"></div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="dashboard-footer">
+        <div class="container">
+            <p>SRE Tier-0 Monitoring Dashboard | CMPE273 Hackathon | Last Updated: <span id="lastUpdated">-</span></p>
+        </div>
+    </footer>
+
+    <script src="/static/js/dashboard.js"></script>
+</body>
+</html>

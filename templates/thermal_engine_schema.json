@@ -1,0 +1,42 @@
+{
+  "device_type": "ThermalEngine",
+  "description": "Thermal engine for industrial power generation",
+  "metrics": {
+    "temperature": {
+      "unit": "celsius",
+      "normal_range": [400, 500],
+      "warning_threshold": 520,
+      "critical_threshold": 550
+    },
+    "pressure": {
+      "unit": "psi",
+      "normal_range": [180, 220],
+      "warning_threshold": 240,
+      "critical_threshold": 280
+    },
+    "vibration": {
+      "unit": "mm/s",
+      "normal_range": [0.5, 1.2],
+      "warning_threshold": 1.5,
+      "critical_threshold": 2.0
+    },
+    "power_output": {
+      "unit": "kW",
+      "normal_range": [4500, 5500],
+      "warning_threshold": 4000,
+      "critical_threshold": 3500
+    },
+    "efficiency": {
+      "unit": "percent",
+      "normal_range": [84, 92],
+      "warning_threshold": 82,
+      "critical_threshold": 78
+    }
+  },
+  "maintenance_schedule": {
+    "routine_inspection": "15 days",
+    "deep_maintenance": "90 days",
+    "part_replacement": "180 days"
+  },
+  "tags": ["thermal", "combustion", "industrial"]
+}

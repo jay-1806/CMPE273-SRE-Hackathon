@@ -1,0 +1,17 @@
+# Sample System Log File
+# This is a placeholder. You can:
+# 1. Replace this with your actual log file
+# 2. Or use the "Generate Sample Logs" button in the dashboard to create test data
+
+# The log analyzer supports multiple formats:
+# - Apache/Nginx format
+# - Syslog format
+# - Custom application logs
+
+# Example log entries:
+192.168.1.100 - - [2024-01-15 10:23:45] "GET /api/devices HTTP/1.1" 200 1234
+192.168.1.101 - - [2024-01-15 10:23:46] "POST /api/auth/login HTTP/1.1" 401 512
+[2024-01-15 10:23:47] ERROR: Request from 192.168.1.102 - Status: 500
+2024-01-15 10:23:48 device-monitor INFO: IP 192.168.1.103 accessed endpoint, response 200
+192.168.1.104 - - [2024-01-15 10:23:49] "GET /api/devices/summary HTTP/1.1" 503 256
+[2024-01-15 10:23:50] WARN: Request from 192.168.1.105 - Status: 404

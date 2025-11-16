@@ -1,0 +1,42 @@
+{
+  "device_type": "ElectricalRotor",
+  "description": "High-efficiency electrical rotor system",
+  "metrics": {
+    "temperature": {
+      "unit": "celsius",
+      "normal_range": [50, 70],
+      "warning_threshold": 80,
+      "critical_threshold": 95
+    },
+    "pressure": {
+      "unit": "psi",
+      "normal_range": [40, 60],
+      "warning_threshold": 70,
+      "critical_threshold": 85
+    },
+    "vibration": {
+      "unit": "mm/s",
+      "normal_range": [0.1, 0.5],
+      "warning_threshold": 0.7,
+      "critical_threshold": 1.0
+    },
+    "power_output": {
+      "unit": "kW",
+      "normal_range": [1200, 1800],
+      "warning_threshold": 1000,
+      "critical_threshold": 800
+    },
+    "efficiency": {
+      "unit": "percent",
+      "normal_range": [92, 98],
+      "warning_threshold": 90,
+      "critical_threshold": 85
+    }
+  },
+  "maintenance_schedule": {
+    "routine_inspection": "45 days",
+    "deep_maintenance": "180 days",
+    "part_replacement": "365 days"
+  },
+  "tags": ["electrical", "motor", "high-efficiency"]
+}

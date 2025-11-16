@@ -1,0 +1,42 @@
+{
+  "device_type": "Turbine",
+  "description": "Wind turbine for power generation",
+  "metrics": {
+    "temperature": {
+      "unit": "celsius",
+      "normal_range": [60, 90],
+      "warning_threshold": 100,
+      "critical_threshold": 120
+    },
+    "pressure": {
+      "unit": "psi",
+      "normal_range": [100, 140],
+      "warning_threshold": 150,
+      "critical_threshold": 180
+    },
+    "vibration": {
+      "unit": "mm/s",
+      "normal_range": [0.2, 0.8],
+      "warning_threshold": 1.0,
+      "critical_threshold": 1.5
+    },
+    "power_output": {
+      "unit": "kW",
+      "normal_range": [2000, 3000],
+      "warning_threshold": 1500,
+      "critical_threshold": 1000
+    },
+    "efficiency": {
+      "unit": "percent",
+      "normal_range": [88, 96],
+      "warning_threshold": 85,
+      "critical_threshold": 80
+    }
+  },
+  "maintenance_schedule": {
+    "routine_inspection": "30 days",
+    "deep_maintenance": "180 days",
+    "part_replacement": "365 days"
+  },
+  "tags": ["renewable", "wind", "power-generation"]
+}
