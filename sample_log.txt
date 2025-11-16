@@ -1,17 +1,1000 @@
-# Sample System Log File
-# This is a placeholder. You can:
-# 1. Replace this with your actual log file
-# 2. Or use the "Generate Sample Logs" button in the dashboard to create test data
-
-# The log analyzer supports multiple formats:
-# - Apache/Nginx format
-# - Syslog format
-# - Custom application logs
-
-# Example log entries:
-192.168.1.100 - - [2024-01-15 10:23:45] "GET /api/devices HTTP/1.1" 200 1234
-192.168.1.101 - - [2024-01-15 10:23:46] "POST /api/auth/login HTTP/1.1" 401 512
-[2024-01-15 10:23:47] ERROR: Request from 192.168.1.102 - Status: 500
-2024-01-15 10:23:48 device-monitor INFO: IP 192.168.1.103 accessed endpoint, response 200
-192.168.1.104 - - [2024-01-15 10:23:49] "GET /api/devices/summary HTTP/1.1" 503 256
-[2024-01-15 10:23:50] WARN: Request from 192.168.1.105 - Status: 404
+2025-11-16 11:46:26 device-monitor WARN: IP 192.168.166.186 accessed endpoint, response 200
+[2025-11-16 11:46:26] ERROR: Request from 192.168.230.16 - Status: 502
+2025-11-16 11:46:26 device-monitor ERROR: IP 192.168.217.42 accessed endpoint, response 200
+192.168.139.55 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 200 1234
+[2025-11-16 11:46:26] ERROR: Request from 192.168.12.133 - Status: 401
+2025-11-16 11:46:26 device-monitor ERROR: IP 192.168.43.238 accessed endpoint, response 304
+192.168.17.186 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 503 1234
+[2025-11-16 11:46:26] ERROR: Request from 192.168.143.61 - Status: 200
+[2025-11-16 11:46:26] INFO: Request from 192.168.150.234 - Status: 500
+192.168.146.212 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 503 1234
+192.168.127.140 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 502 1234
+[2025-11-16 11:46:26] INFO: Request from 192.168.73.99 - Status: 401
+[2025-11-16 11:46:26] INFO: Request from 192.168.27.222 - Status: 200
+[2025-11-16 11:46:26] WARN: Request from 192.168.93.136 - Status: 400
+2025-11-16 11:46:26 device-monitor ERROR: IP 192.168.68.204 accessed endpoint, response 404
+192.168.59.60 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 201 1234
+[2025-11-16 11:46:26] CRITICAL: Request from 192.168.18.37 - Status: 201
+192.168.219.144 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 400 1234
+192.168.246.76 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 304 1234
+192.168.164.49 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 200 1234
+[2025-11-16 11:46:26] CRITICAL: Request from 192.168.250.93 - Status: 201
+192.168.221.247 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 401 1234
+2025-11-16 11:46:26 device-monitor CRITICAL: IP 192.168.61.162 accessed endpoint, response 200
+2025-11-16 11:46:26 device-monitor ERROR: IP 192.168.146.212 accessed endpoint, response 502
+[2025-11-16 11:46:26] INFO: Request from 192.168.226.154 - Status: 500
+[2025-11-16 11:46:26] INFO: Request from 192.168.127.140 - Status: 200
+[2025-11-16 11:46:26] ERROR: Request from 192.168.164.51 - Status: 404
+[2025-11-16 11:46:26] INFO: Request from 192.168.127.140 - Status: 502
+[2025-11-16 11:46:26] ERROR: Request from 192.168.255.126 - Status: 403
+192.168.166.186 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 201 1234
+2025-11-16 11:46:26 device-monitor WARN: IP 192.168.63.19 accessed endpoint, response 304
+2025-11-16 11:46:26 device-monitor CRITICAL: IP 192.168.232.38 accessed endpoint, response 502
+2025-11-16 11:46:26 device-monitor INFO: IP 192.168.66.52 accessed endpoint, response 400
+192.168.231.140 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 401 1234
+[2025-11-16 11:46:26] CRITICAL: Request from 192.168.232.38 - Status: 403
+2025-11-16 11:46:26 device-monitor CRITICAL: IP 192.168.250.93 accessed endpoint, response 200
+[2025-11-16 11:46:26] INFO: Request from 192.168.216.107 - Status: 200
+2025-11-16 11:46:26 device-monitor WARN: IP 192.168.138.40 accessed endpoint, response 304
+192.168.59.60 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 304 1234
+2025-11-16 11:46:26 device-monitor INFO: IP 192.168.66.52 accessed endpoint, response 404
+2025-11-16 11:46:26 device-monitor INFO: IP 192.168.178.222 accessed endpoint, response 403
+192.168.138.40 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 200 1234
+2025-11-16 11:46:26 device-monitor ERROR: IP 192.168.45.1 accessed endpoint, response 403
+192.168.250.93 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 401 1234
+[2025-11-16 11:46:26] ERROR: Request from 192.168.66.77 - Status: 400
+192.168.45.1 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 500 1234
+[2025-11-16 11:46:26] INFO: Request from 192.168.187.223 - Status: 201
+2025-11-16 11:46:26 device-monitor WARN: IP 192.168.130.155 accessed endpoint, response 403
+2025-11-16 11:46:26 device-monitor ERROR: IP 192.168.161.60 accessed endpoint, response 500
+192.168.246.76 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 200 1234
+2025-11-16 11:46:26 device-monitor INFO: IP 192.168.130.155 accessed endpoint, response 502
+2025-11-16 11:46:26 device-monitor INFO: IP 192.168.146.212 accessed endpoint, response 503
+192.168.164.51 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 200 1234
+[2025-11-16 11:46:26] WARN: Request from 192.168.61.24 - Status: 200
+2025-11-16 11:46:26 device-monitor ERROR: IP 192.168.84.120 accessed endpoint, response 200
+192.168.246.76 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 200 1234
+[2025-11-16 11:46:26] ERROR: Request from 192.168.150.234 - Status: 200
+192.168.223.115 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 401 1234
+192.168.231.140 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 200 1234
+192.168.45.1 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 500 1234
+[2025-11-16 11:46:26] CRITICAL: Request from 192.168.93.136 - Status: 200
+192.168.146.212 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 201 1234
+[2025-11-16 11:46:26] ERROR: Request from 192.168.18.68 - Status: 503
+2025-11-16 11:46:26 device-monitor ERROR: IP 192.168.18.37 accessed endpoint, response 200
+[2025-11-16 11:46:26] INFO: Request from 192.168.231.140 - Status: 200
+2025-11-16 11:46:26 device-monitor CRITICAL: IP 192.168.17.186 accessed endpoint, response 304
+192.168.230.16 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 304 1234
+192.168.161.60 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 400 1234
+2025-11-16 11:46:26 device-monitor INFO: IP 192.168.200.201 accessed endpoint, response 201
+192.168.27.222 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 200 1234
+192.168.176.116 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 200 1234
+2025-11-16 11:46:26 device-monitor INFO: IP 192.168.166.186 accessed endpoint, response 401
+192.168.61.162 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 400 1234
+[2025-11-16 11:46:26] INFO: Request from 192.168.61.24 - Status: 200
+192.168.61.24 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 500 1234
+192.168.187.223 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 401 1234
+192.168.223.115 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 200 1234
+[2025-11-16 11:46:26] WARN: Request from 192.168.38.107 - Status: 503
+192.168.43.238 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 200 1234
+2025-11-16 11:46:26 device-monitor INFO: IP 192.168.143.61 accessed endpoint, response 201
+[2025-11-16 11:46:26] CRITICAL: Request from 192.168.61.24 - Status: 503
+2025-11-16 11:46:26 device-monitor INFO: IP 192.168.12.116 accessed endpoint, response 401
+192.168.187.223 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 304 1234
+192.168.176.116 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 200 1234
+192.168.231.140 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 502 1234
+2025-11-16 11:46:26 device-monitor INFO: IP 192.168.46.173 accessed endpoint, response 304
+192.168.232.38 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 502 1234
+2025-11-16 11:46:26 device-monitor CRITICAL: IP 192.168.12.116 accessed endpoint, response 201
+[2025-11-16 11:46:26] CRITICAL: Request from 192.168.59.60 - Status: 200
+192.168.73.99 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 200 1234
+2025-11-16 11:46:26 device-monitor INFO: IP 192.168.126.246 accessed endpoint, response 403
+192.168.43.238 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 200 1234
+[2025-11-16 11:46:26] INFO: Request from 192.168.38.107 - Status: 403
+2025-11-16 11:46:26 device-monitor INFO: IP 192.168.230.16 accessed endpoint, response 401
+[2025-11-16 11:46:26] INFO: Request from 192.168.138.40 - Status: 400
+[2025-11-16 11:46:26] ERROR: Request from 192.168.46.173 - Status: 500
+[2025-11-16 11:46:26] INFO: Request from 192.168.161.60 - Status: 403
+[2025-11-16 11:46:26] INFO: Request from 192.168.93.136 - Status: 200
+192.168.147.14 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 200 1234
+192.168.164.51 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 503 1234
+192.168.250.179 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 403 1234
+192.168.139.55 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 400 1234
+2025-11-16 11:46:26 device-monitor WARN: IP 192.168.93.136 accessed endpoint, response 502
+[2025-11-16 11:46:26] INFO: Request from 192.168.130.155 - Status: 400
+[2025-11-16 11:46:26] WARN: Request from 192.168.17.186 - Status: 304
+192.168.226.154 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 200 1234
+[2025-11-16 11:46:26] CRITICAL: Request from 192.168.138.40 - Status: 400
+192.168.27.222 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 200 1234
+[2025-11-16 11:46:26] ERROR: Request from 192.168.73.99 - Status: 500
+2025-11-16 11:46:26 device-monitor ERROR: IP 192.168.84.120 accessed endpoint, response 401
+192.168.61.162 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 400 1234
+2025-11-16 11:46:26 device-monitor WARN: IP 192.168.178.222 accessed endpoint, response 403
+[2025-11-16 11:46:26] WARN: Request from 192.168.27.222 - Status: 404
+2025-11-16 11:46:26 device-monitor INFO: IP 192.168.216.107 accessed endpoint, response 200
+2025-11-16 11:46:26 device-monitor WARN: IP 192.168.250.93 accessed endpoint, response 201
+[2025-11-16 11:46:26] ERROR: Request from 192.168.200.201 - Status: 200
+192.168.12.116 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 304 1234
+[2025-11-16 11:46:26] ERROR: Request from 192.168.18.37 - Status: 201
+[2025-11-16 11:46:26] INFO: Request from 192.168.187.223 - Status: 200
+2025-11-16 11:46:26 device-monitor CRITICAL: IP 192.168.73.99 accessed endpoint, response 404
+192.168.250.179 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 201 1234
+192.168.139.55 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 200 1234
+2025-11-16 11:46:26 device-monitor ERROR: IP 192.168.221.247 accessed endpoint, response 200
+2025-11-16 11:46:26 device-monitor ERROR: IP 192.168.161.60 accessed endpoint, response 403
+[2025-11-16 11:46:26] WARN: Request from 192.168.250.179 - Status: 404
+192.168.250.179 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 500 1234
+[2025-11-16 11:46:26] INFO: Request from 192.168.221.247 - Status: 401
+[2025-11-16 11:46:26] CRITICAL: Request from 192.168.46.173 - Status: 404
+2025-11-16 11:46:26 device-monitor WARN: IP 192.168.164.51 accessed endpoint, response 201
+[2025-11-16 11:46:26] INFO: Request from 192.168.27.222 - Status: 304
+2025-11-16 11:46:26 device-monitor WARN: IP 192.168.93.136 accessed endpoint, response 400
+192.168.139.55 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 200 1234
+[2025-11-16 11:46:26] CRITICAL: Request from 192.168.126.246 - Status: 500
+[2025-11-16 11:46:26] INFO: Request from 192.168.230.16 - Status: 200
+[2025-11-16 11:46:26] ERROR: Request from 192.168.226.154 - Status: 400
+[2025-11-16 11:46:26] ERROR: Request from 192.168.17.186 - Status: 304
+[2025-11-16 11:46:26] INFO: Request from 192.168.139.55 - Status: 404
+[2025-11-16 11:46:26] CRITICAL: Request from 192.168.230.16 - Status: 502
+[2025-11-16 11:46:26] ERROR: Request from 192.168.68.204 - Status: 503
+192.168.161.60 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 200 1234
+[2025-11-16 11:46:26] ERROR: Request from 192.168.139.55 - Status: 200
+2025-11-16 11:46:26 device-monitor CRITICAL: IP 192.168.66.52 accessed endpoint, response 200
+[2025-11-16 11:46:26] INFO: Request from 192.168.61.162 - Status: 200
+2025-11-16 11:46:26 device-monitor INFO: IP 192.168.126.246 accessed endpoint, response 200
+192.168.246.76 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 503 1234
+[2025-11-16 11:46:26] INFO: Request from 192.168.73.99 - Status: 404
+2025-11-16 11:46:26 device-monitor CRITICAL: IP 192.168.187.223 accessed endpoint, response 403
+2025-11-16 11:46:26 device-monitor ERROR: IP 192.168.143.61 accessed endpoint, response 404
+192.168.38.107 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 201 1234
+2025-11-16 11:46:26 device-monitor ERROR: IP 192.168.18.68 accessed endpoint, response 401
+2025-11-16 11:46:26 device-monitor INFO: IP 192.168.226.154 accessed endpoint, response 200
+[2025-11-16 11:46:26] ERROR: Request from 192.168.143.61 - Status: 200
+192.168.66.77 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 503 1234
+192.168.18.37 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 500 1234
+[2025-11-16 11:46:26] CRITICAL: Request from 192.168.38.107 - Status: 502
+[2025-11-16 11:46:26] INFO: Request from 192.168.161.60 - Status: 404
+2025-11-16 11:46:26 device-monitor INFO: IP 192.168.18.37 accessed endpoint, response 403
+[2025-11-16 11:46:26] INFO: Request from 192.168.27.222 - Status: 200
+[2025-11-16 11:46:26] ERROR: Request from 192.168.66.52 - Status: 200
+2025-11-16 11:46:26 device-monitor WARN: IP 192.168.246.76 accessed endpoint, response 201
+2025-11-16 11:46:26 device-monitor CRITICAL: IP 192.168.12.133 accessed endpoint, response 304
+192.168.45.1 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 502 1234
+[2025-11-16 11:46:26] ERROR: Request from 192.168.46.173 - Status: 404
+[2025-11-16 11:46:26] ERROR: Request from 192.168.164.49 - Status: 200
+[2025-11-16 11:46:26] INFO: Request from 192.168.46.173 - Status: 200
+192.168.139.55 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 400 1234
+[2025-11-16 11:46:26] CRITICAL: Request from 192.168.230.16 - Status: 200
+2025-11-16 11:46:26 device-monitor INFO: IP 192.168.176.116 accessed endpoint, response 502
+[2025-11-16 11:46:26] INFO: Request from 192.168.138.40 - Status: 200
+192.168.84.120 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 401 1234
+192.168.139.55 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 500 1234
+192.168.18.68 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 403 1234
+2025-11-16 11:46:26 device-monitor CRITICAL: IP 192.168.126.246 accessed endpoint, response 502
+[2025-11-16 11:46:26] INFO: Request from 192.168.164.51 - Status: 200
+[2025-11-16 11:46:26] INFO: Request from 192.168.130.155 - Status: 500
+[2025-11-16 11:46:26] ERROR: Request from 192.168.178.222 - Status: 200
+[2025-11-16 11:46:26] ERROR: Request from 192.168.138.40 - Status: 200
+2025-11-16 11:46:26 device-monitor CRITICAL: IP 192.168.231.140 accessed endpoint, response 200
+2025-11-16 11:46:26 device-monitor ERROR: IP 192.168.178.222 accessed endpoint, response 304
+2025-11-16 11:46:26 device-monitor CRITICAL: IP 192.168.219.144 accessed endpoint, response 500
+[2025-11-16 11:46:26] WARN: Request from 192.168.164.49 - Status: 404
+[2025-11-16 11:46:26] INFO: Request from 192.168.45.1 - Status: 200
+[2025-11-16 11:46:26] ERROR: Request from 192.168.143.61 - Status: 304
+2025-11-16 11:46:26 device-monitor CRITICAL: IP 192.168.66.77 accessed endpoint, response 403
+192.168.66.77 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 200 1234
+192.168.46.173 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 200 1234
+2025-11-16 11:46:26 device-monitor WARN: IP 192.168.66.52 accessed endpoint, response 200
+[2025-11-16 11:46:26] INFO: Request from 192.168.84.120 - Status: 200
+[2025-11-16 11:46:26] CRITICAL: Request from 192.168.63.19 - Status: 403
+[2025-11-16 11:46:26] CRITICAL: Request from 192.168.27.222 - Status: 403
+192.168.18.68 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 200 1234
+[2025-11-16 11:46:26] WARN: Request from 192.168.146.212 - Status: 304
+[2025-11-16 11:46:26] CRITICAL: Request from 192.168.221.247 - Status: 200
+[2025-11-16 11:46:26] CRITICAL: Request from 192.168.12.116 - Status: 200
+[2025-11-16 11:46:26] INFO: Request from 192.168.250.179 - Status: 502
+192.168.59.60 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 304 1234
+192.168.46.173 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 200 1234
+2025-11-16 11:46:26 device-monitor ERROR: IP 192.168.43.238 accessed endpoint, response 200
+2025-11-16 11:46:26 device-monitor ERROR: IP 192.168.93.136 accessed endpoint, response 404
+192.168.231.140 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 404 1234
+[2025-11-16 11:46:26] INFO: Request from 192.168.63.19 - Status: 201
+[2025-11-16 11:46:26] INFO: Request from 192.168.231.140 - Status: 500
+2025-11-16 11:46:26 device-monitor INFO: IP 192.168.221.247 accessed endpoint, response 304
+[2025-11-16 11:46:26] INFO: Request from 192.168.59.60 - Status: 404
+[2025-11-16 11:46:26] CRITICAL: Request from 192.168.217.42 - Status: 200
+192.168.164.49 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 403 1234
+192.168.43.238 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 200 1234
+192.168.68.204 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 200 1234
+192.168.38.107 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 500 1234
+[2025-11-16 11:46:26] WARN: Request from 192.168.147.14 - Status: 403
+192.168.231.140 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 400 1234
+2025-11-16 11:46:26 device-monitor CRITICAL: IP 192.168.139.55 accessed endpoint, response 200
+192.168.219.144 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 200 1234
+2025-11-16 11:46:26 device-monitor WARN: IP 192.168.143.61 accessed endpoint, response 404
+[2025-11-16 11:46:26] ERROR: Request from 192.168.45.1 - Status: 201
+192.168.164.49 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 503 1234
+2025-11-16 11:46:26 device-monitor WARN: IP 192.168.250.93 accessed endpoint, response 404
+192.168.46.173 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 200 1234
+2025-11-16 11:46:26 device-monitor INFO: IP 192.168.46.173 accessed endpoint, response 401
+192.168.150.234 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 304 1234
+192.168.187.223 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 401 1234
+192.168.138.40 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 200 1234
+2025-11-16 11:46:26 device-monitor WARN: IP 192.168.250.179 accessed endpoint, response 502
+[2025-11-16 11:46:26] ERROR: Request from 192.168.93.136 - Status: 503
+192.168.61.24 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 200 1234
+[2025-11-16 11:46:26] WARN: Request from 192.168.17.186 - Status: 201
+[2025-11-16 11:46:26] WARN: Request from 192.168.166.186 - Status: 201
+192.168.221.247 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 500 1234
+2025-11-16 11:46:26 device-monitor ERROR: IP 192.168.73.99 accessed endpoint, response 200
+[2025-11-16 11:46:26] ERROR: Request from 192.168.200.201 - Status: 403
+2025-11-16 11:46:26 device-monitor ERROR: IP 192.168.18.68 accessed endpoint, response 200
+192.168.219.144 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 304 1234
+192.168.217.42 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 403 1234
+[2025-11-16 11:46:26] ERROR: Request from 192.168.216.107 - Status: 401
+2025-11-16 11:46:26 device-monitor WARN: IP 192.168.84.120 accessed endpoint, response 201
+2025-11-16 11:46:26 device-monitor ERROR: IP 192.168.38.107 accessed endpoint, response 403
+2025-11-16 11:46:26 device-monitor WARN: IP 192.168.231.140 accessed endpoint, response 400
+[2025-11-16 11:46:26] ERROR: Request from 192.168.46.173 - Status: 403
+192.168.46.173 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 400 1234
+2025-11-16 11:46:26 device-monitor WARN: IP 192.168.250.179 accessed endpoint, response 201
+2025-11-16 11:46:26 device-monitor INFO: IP 192.168.187.223 accessed endpoint, response 400
+192.168.232.38 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 200 1234
+192.168.61.162 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 503 1234
+[2025-11-16 11:46:26] ERROR: Request from 192.168.18.37 - Status: 500
+[2025-11-16 11:46:26] ERROR: Request from 192.168.143.61 - Status: 503
+192.168.176.116 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 503 1234
+192.168.61.162 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 404 1234
+[2025-11-16 11:46:26] ERROR: Request from 192.168.93.136 - Status: 200
+2025-11-16 11:46:26 device-monitor INFO: IP 192.168.250.179 accessed endpoint, response 404
+192.168.176.116 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 201 1234
+2025-11-16 11:46:26 device-monitor INFO: IP 192.168.161.60 accessed endpoint, response 503
+192.168.232.38 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 500 1234
+192.168.250.93 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 401 1234
+192.168.255.126 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 503 1234
+192.168.226.154 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 500 1234
+2025-11-16 11:46:26 device-monitor CRITICAL: IP 192.168.164.49 accessed endpoint, response 201
+192.168.66.52 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 200 1234
+[2025-11-16 11:46:26] ERROR: Request from 192.168.61.24 - Status: 503
+192.168.178.222 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 500 1234
+2025-11-16 11:46:26 device-monitor ERROR: IP 192.168.138.40 accessed endpoint, response 304
+2025-11-16 11:46:26 device-monitor INFO: IP 192.168.146.212 accessed endpoint, response 401
+2025-11-16 11:46:26 device-monitor INFO: IP 192.168.93.136 accessed endpoint, response 400
+192.168.147.14 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 503 1234
+192.168.161.60 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 200 1234
+192.168.176.116 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 201 1234
+[2025-11-16 11:46:26] ERROR: Request from 192.168.232.38 - Status: 503
+2025-11-16 11:46:26 device-monitor INFO: IP 192.168.63.19 accessed endpoint, response 200
+2025-11-16 11:46:26 device-monitor ERROR: IP 192.168.59.60 accessed endpoint, response 401
+2025-11-16 11:46:26 device-monitor ERROR: IP 192.168.66.77 accessed endpoint, response 502
+2025-11-16 11:46:26 device-monitor INFO: IP 192.168.63.19 accessed endpoint, response 200
+192.168.61.162 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 201 1234
+192.168.127.140 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 500 1234
+192.168.231.140 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 200 1234
+2025-11-16 11:46:26 device-monitor CRITICAL: IP 192.168.84.120 accessed endpoint, response 201
+2025-11-16 11:46:26 device-monitor ERROR: IP 192.168.146.212 accessed endpoint, response 500
+2025-11-16 11:46:26 device-monitor INFO: IP 192.168.12.133 accessed endpoint, response 403
+2025-11-16 11:46:26 device-monitor INFO: IP 192.168.139.55 accessed endpoint, response 401
+[2025-11-16 11:46:26] ERROR: Request from 192.168.255.126 - Status: 403
+192.168.18.68 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 200 1234
+[2025-11-16 11:46:26] CRITICAL: Request from 192.168.84.120 - Status: 404
+2025-11-16 11:46:26 device-monitor CRITICAL: IP 192.168.66.77 accessed endpoint, response 200
+192.168.146.212 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 200 1234
+192.168.93.136 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 200 1234
+2025-11-16 11:46:26 device-monitor INFO: IP 192.168.66.77 accessed endpoint, response 200
+2025-11-16 11:46:26 device-monitor INFO: IP 192.168.164.49 accessed endpoint, response 500
+192.168.17.186 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 201 1234
+2025-11-16 11:46:26 device-monitor CRITICAL: IP 192.168.250.93 accessed endpoint, response 500
+192.168.43.238 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 200 1234
+192.168.68.204 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 200 1234
+[2025-11-16 11:46:26] CRITICAL: Request from 192.168.223.115 - Status: 201
+2025-11-16 11:46:26 device-monitor ERROR: IP 192.168.217.42 accessed endpoint, response 201
+[2025-11-16 11:46:26] INFO: Request from 192.168.68.204 - Status: 502
+[2025-11-16 11:46:26] CRITICAL: Request from 192.168.143.61 - Status: 201
+[2025-11-16 11:46:26] ERROR: Request from 192.168.255.126 - Status: 201
+2025-11-16 11:46:26 device-monitor INFO: IP 192.168.166.186 accessed endpoint, response 403
+2025-11-16 11:46:26 device-monitor CRITICAL: IP 192.168.66.77 accessed endpoint, response 500
+192.168.46.173 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 200 1234
+192.168.217.42 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 200 1234
+[2025-11-16 11:46:26] CRITICAL: Request from 192.168.127.140 - Status: 500
+192.168.250.93 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 400 1234
+[2025-11-16 11:46:26] WARN: Request from 192.168.223.115 - Status: 200
+192.168.221.247 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 200 1234
+2025-11-16 11:46:26 device-monitor INFO: IP 192.168.226.154 accessed endpoint, response 404
+2025-11-16 11:46:26 device-monitor WARN: IP 192.168.164.51 accessed endpoint, response 200
+2025-11-16 11:46:26 device-monitor ERROR: IP 192.168.59.60 accessed endpoint, response 200
+[2025-11-16 11:46:26] ERROR: Request from 192.168.143.61 - Status: 200
+2025-11-16 11:46:26 device-monitor ERROR: IP 192.168.138.40 accessed endpoint, response 400
+2025-11-16 11:46:26 device-monitor INFO: IP 192.168.27.222 accessed endpoint, response 200
+2025-11-16 11:46:26 device-monitor CRITICAL: IP 192.168.219.144 accessed endpoint, response 200
+192.168.187.223 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 404 1234
+2025-11-16 11:46:26 device-monitor INFO: IP 192.168.63.19 accessed endpoint, response 502
+192.168.200.201 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 502 1234
+[2025-11-16 11:46:26] ERROR: Request from 192.168.43.238 - Status: 500
+2025-11-16 11:46:26 device-monitor ERROR: IP 192.168.187.223 accessed endpoint, response 502
+[2025-11-16 11:46:26] ERROR: Request from 192.168.221.247 - Status: 200
+192.168.130.155 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 503 1234
+[2025-11-16 11:46:26] INFO: Request from 192.168.187.223 - Status: 200
+192.168.250.93 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 201 1234
+2025-11-16 11:46:26 device-monitor ERROR: IP 192.168.12.133 accessed endpoint, response 200
+192.168.126.246 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 200 1234
+2025-11-16 11:46:26 device-monitor INFO: IP 192.168.138.40 accessed endpoint, response 503
+2025-11-16 11:46:26 device-monitor ERROR: IP 192.168.84.120 accessed endpoint, response 201
+2025-11-16 11:46:26 device-monitor INFO: IP 192.168.93.136 accessed endpoint, response 404
+[2025-11-16 11:46:26] INFO: Request from 192.168.176.116 - Status: 502
+2025-11-16 11:46:26 device-monitor INFO: IP 192.168.45.1 accessed endpoint, response 200
+2025-11-16 11:46:26 device-monitor INFO: IP 192.168.127.140 accessed endpoint, response 401
+192.168.61.162 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 404 1234
+2025-11-16 11:46:26 device-monitor INFO: IP 192.168.217.42 accessed endpoint, response 200
+2025-11-16 11:46:26 device-monitor ERROR: IP 192.168.18.37 accessed endpoint, response 200
+192.168.18.37 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 502 1234
+192.168.59.60 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 200 1234
+192.168.59.60 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 401 1234
+192.168.73.99 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 502 1234
+2025-11-16 11:46:26 device-monitor INFO: IP 192.168.143.61 accessed endpoint, response 500
+[2025-11-16 11:46:26] INFO: Request from 192.168.150.234 - Status: 304
+2025-11-16 11:46:26 device-monitor INFO: IP 192.168.61.24 accessed endpoint, response 404
+192.168.223.115 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 304 1234
+[2025-11-16 11:46:26] INFO: Request from 192.168.45.1 - Status: 200
+192.168.250.93 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 400 1234
+[2025-11-16 11:46:26] INFO: Request from 192.168.66.52 - Status: 500
+[2025-11-16 11:46:26] WARN: Request from 192.168.219.144 - Status: 201
+192.168.166.186 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 400 1234
+[2025-11-16 11:46:26] INFO: Request from 192.168.126.246 - Status: 503
+2025-11-16 11:46:26 device-monitor ERROR: IP 192.168.127.140 accessed endpoint, response 201
+2025-11-16 11:46:26 device-monitor ERROR: IP 192.168.230.16 accessed endpoint, response 200
+2025-11-16 11:46:26 device-monitor ERROR: IP 192.168.187.223 accessed endpoint, response 400
+2025-11-16 11:46:26 device-monitor CRITICAL: IP 192.168.219.144 accessed endpoint, response 304
+192.168.17.186 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 500 1234
+192.168.93.136 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 200 1234
+192.168.147.14 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 304 1234
+[2025-11-16 11:46:26] INFO: Request from 192.168.250.93 - Status: 304
+[2025-11-16 11:46:26] INFO: Request from 192.168.46.173 - Status: 503
+192.168.61.162 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 503 1234
+192.168.164.51 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 502 1234
+[2025-11-16 11:46:26] ERROR: Request from 192.168.250.93 - Status: 304
+[2025-11-16 11:46:26] WARN: Request from 192.168.246.76 - Status: 200
+[2025-11-16 11:46:26] CRITICAL: Request from 192.168.27.222 - Status: 200
+192.168.127.140 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 304 1234
+192.168.139.55 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 200 1234
+2025-11-16 11:46:26 device-monitor ERROR: IP 192.168.17.186 accessed endpoint, response 200
+2025-11-16 11:46:26 device-monitor CRITICAL: IP 192.168.230.16 accessed endpoint, response 201
+[2025-11-16 11:46:26] INFO: Request from 192.168.43.238 - Status: 404
+2025-11-16 11:46:26 device-monitor ERROR: IP 192.168.45.1 accessed endpoint, response 403
+2025-11-16 11:46:26 device-monitor INFO: IP 192.168.161.60 accessed endpoint, response 400
+2025-11-16 11:46:26 device-monitor WARN: IP 192.168.93.136 accessed endpoint, response 500
+192.168.61.162 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 400 1234
+[2025-11-16 11:46:26] INFO: Request from 192.168.232.38 - Status: 200
+192.168.61.24 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 503 1234
+192.168.230.16 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 404 1234
+2025-11-16 11:46:26 device-monitor ERROR: IP 192.168.43.238 accessed endpoint, response 200
+2025-11-16 11:46:26 device-monitor ERROR: IP 192.168.178.222 accessed endpoint, response 503
+192.168.164.49 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 500 1234
+2025-11-16 11:46:26 device-monitor INFO: IP 192.168.187.223 accessed endpoint, response 503
+[2025-11-16 11:46:26] INFO: Request from 192.168.61.24 - Status: 200
+192.168.18.68 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 404 1234
+192.168.176.116 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 503 1234
+2025-11-16 11:46:26 device-monitor ERROR: IP 192.168.12.116 accessed endpoint, response 502
+2025-11-16 11:46:26 device-monitor INFO: IP 192.168.226.154 accessed endpoint, response 404
+[2025-11-16 11:46:26] INFO: Request from 192.168.38.107 - Status: 200
+[2025-11-16 11:46:26] ERROR: Request from 192.168.146.212 - Status: 401
+192.168.246.76 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 502 1234
+[2025-11-16 11:46:26] INFO: Request from 192.168.68.204 - Status: 400
+2025-11-16 11:46:26 device-monitor INFO: IP 192.168.250.179 accessed endpoint, response 200
+[2025-11-16 11:46:26] ERROR: Request from 192.168.127.140 - Status: 200
+192.168.146.212 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 503 1234
+2025-11-16 11:46:26 device-monitor INFO: IP 192.168.223.115 accessed endpoint, response 500
+[2025-11-16 11:46:26] INFO: Request from 192.168.200.201 - Status: 200
+192.168.164.49 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 502 1234
+192.168.139.55 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 200 1234
+2025-11-16 11:46:26 device-monitor ERROR: IP 192.168.166.186 accessed endpoint, response 400
+192.168.164.51 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 200 1234
+[2025-11-16 11:46:26] ERROR: Request from 192.168.127.140 - Status: 200
+192.168.161.60 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 200 1234
+192.168.73.99 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 401 1234
+2025-11-16 11:46:26 device-monitor INFO: IP 192.168.164.49 accessed endpoint, response 500
+2025-11-16 11:46:26 device-monitor WARN: IP 192.168.161.60 accessed endpoint, response 401
+2025-11-16 11:46:26 device-monitor INFO: IP 192.168.176.116 accessed endpoint, response 200
+[2025-11-16 11:46:26] INFO: Request from 192.168.139.55 - Status: 200
+2025-11-16 11:46:26 device-monitor INFO: IP 192.168.17.186 accessed endpoint, response 200
+192.168.178.222 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 400 1234
+2025-11-16 11:46:26 device-monitor INFO: IP 192.168.164.51 accessed endpoint, response 400
+192.168.219.144 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 304 1234
+[2025-11-16 11:46:26] CRITICAL: Request from 192.168.176.116 - Status: 404
+[2025-11-16 11:46:26] WARN: Request from 192.168.161.60 - Status: 502
+192.168.73.99 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 200 1234
+[2025-11-16 11:46:26] INFO: Request from 192.168.63.19 - Status: 200
+192.168.18.37 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 200 1234
+192.168.250.179 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 500 1234
+2025-11-16 11:46:26 device-monitor ERROR: IP 192.168.230.16 accessed endpoint, response 200
+2025-11-16 11:46:26 device-monitor ERROR: IP 192.168.139.55 accessed endpoint, response 404
+192.168.18.68 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 500 1234
+[2025-11-16 11:46:26] ERROR: Request from 192.168.18.37 - Status: 403
+192.168.226.154 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 201 1234
+192.168.18.37 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 503 1234
+192.168.18.68 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 503 1234
+2025-11-16 11:46:26 device-monitor INFO: IP 192.168.68.204 accessed endpoint, response 200
+[2025-11-16 11:46:26] WARN: Request from 192.168.126.246 - Status: 404
+192.168.126.246 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 404 1234
+2025-11-16 11:46:26 device-monitor ERROR: IP 192.168.84.120 accessed endpoint, response 503
+[2025-11-16 11:46:26] ERROR: Request from 192.168.147.14 - Status: 403
+[2025-11-16 11:46:26] ERROR: Request from 192.168.164.51 - Status: 200
+[2025-11-16 11:46:26] WARN: Request from 192.168.246.76 - Status: 403
+192.168.143.61 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 304 1234
+192.168.27.222 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 200 1234
+2025-11-16 11:46:26 device-monitor ERROR: IP 192.168.219.144 accessed endpoint, response 400
+192.168.231.140 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 200 1234
+[2025-11-16 11:46:26] WARN: Request from 192.168.84.120 - Status: 201
+192.168.217.42 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 201 1234
+[2025-11-16 11:46:26] INFO: Request from 192.168.17.186 - Status: 400
+[2025-11-16 11:46:26] CRITICAL: Request from 192.168.17.186 - Status: 304
+192.168.66.77 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 200 1234
+2025-11-16 11:46:26 device-monitor INFO: IP 192.168.250.93 accessed endpoint, response 200
+[2025-11-16 11:46:26] ERROR: Request from 192.168.63.19 - Status: 502
+192.168.12.116 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 200 1234
+[2025-11-16 11:46:26] WARN: Request from 192.168.164.49 - Status: 200
+192.168.178.222 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 400 1234
+[2025-11-16 11:46:26] CRITICAL: Request from 192.168.73.99 - Status: 404
+[2025-11-16 11:46:26] ERROR: Request from 192.168.219.144 - Status: 200
+192.168.143.61 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 200 1234
+2025-11-16 11:46:26 device-monitor INFO: IP 192.168.68.204 accessed endpoint, response 502
+192.168.12.133 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 201 1234
+[2025-11-16 11:46:26] INFO: Request from 192.168.17.186 - Status: 200
+[2025-11-16 11:46:26] ERROR: Request from 192.168.45.1 - Status: 201
+192.168.130.155 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 401 1234
+2025-11-16 11:46:26 device-monitor INFO: IP 192.168.66.77 accessed endpoint, response 200
+[2025-11-16 11:46:26] INFO: Request from 192.168.219.144 - Status: 200
+[2025-11-16 11:46:26] ERROR: Request from 192.168.143.61 - Status: 503
+2025-11-16 11:46:26 device-monitor WARN: IP 192.168.63.19 accessed endpoint, response 200
+192.168.139.55 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 200 1234
+[2025-11-16 11:46:26] ERROR: Request from 192.168.43.238 - Status: 500
+2025-11-16 11:46:26 device-monitor INFO: IP 192.168.150.234 accessed endpoint, response 304
+2025-11-16 11:46:26 device-monitor WARN: IP 192.168.63.19 accessed endpoint, response 200
+192.168.178.222 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 401 1234
+[2025-11-16 11:46:26] ERROR: Request from 192.168.161.60 - Status: 200
+192.168.143.61 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 304 1234
+2025-11-16 11:46:26 device-monitor WARN: IP 192.168.217.42 accessed endpoint, response 200
+2025-11-16 11:46:26 device-monitor ERROR: IP 192.168.45.1 accessed endpoint, response 200
+2025-11-16 11:46:26 device-monitor INFO: IP 192.168.43.238 accessed endpoint, response 403
+192.168.246.76 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 304 1234
+192.168.200.201 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 304 1234
+2025-11-16 11:46:26 device-monitor INFO: IP 192.168.219.144 accessed endpoint, response 201
+[2025-11-16 11:46:26] INFO: Request from 192.168.232.38 - Status: 201
+[2025-11-16 11:46:26] CRITICAL: Request from 192.168.200.201 - Status: 400
+192.168.17.186 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 200 1234
+192.168.43.238 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 200 1234
+[2025-11-16 11:46:26] INFO: Request from 192.168.45.1 - Status: 200
+[2025-11-16 11:46:26] CRITICAL: Request from 192.168.130.155 - Status: 400
+192.168.231.140 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 400 1234
+2025-11-16 11:46:26 device-monitor CRITICAL: IP 192.168.150.234 accessed endpoint, response 200
+192.168.66.52 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 200 1234
+192.168.18.37 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 401 1234
+[2025-11-16 11:46:26] INFO: Request from 192.168.223.115 - Status: 503
+192.168.46.173 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 200 1234
+2025-11-16 11:46:26 device-monitor INFO: IP 192.168.46.173 accessed endpoint, response 200
+192.168.18.68 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 500 1234
+[2025-11-16 11:46:26] ERROR: Request from 192.168.59.60 - Status: 401
+2025-11-16 11:46:26 device-monitor CRITICAL: IP 192.168.130.155 accessed endpoint, response 201
+2025-11-16 11:46:26 device-monitor INFO: IP 192.168.139.55 accessed endpoint, response 502
+2025-11-16 11:46:26 device-monitor INFO: IP 192.168.46.173 accessed endpoint, response 200
+[2025-11-16 11:46:26] INFO: Request from 192.168.73.99 - Status: 200
+2025-11-16 11:46:26 device-monitor INFO: IP 192.168.17.186 accessed endpoint, response 503
+192.168.217.42 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 200 1234
+192.168.68.204 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 200 1234
+[2025-11-16 11:46:26] INFO: Request from 192.168.164.49 - Status: 503
+[2025-11-16 11:46:26] INFO: Request from 192.168.226.154 - Status: 200
+192.168.138.40 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 200 1234
+[2025-11-16 11:46:26] ERROR: Request from 192.168.93.136 - Status: 200
+[2025-11-16 11:46:26] CRITICAL: Request from 192.168.176.116 - Status: 200
+2025-11-16 11:46:26 device-monitor CRITICAL: IP 192.168.230.16 accessed endpoint, response 404
+192.168.18.37 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 502 1234
+[2025-11-16 11:46:26] WARN: Request from 192.168.221.247 - Status: 503
+2025-11-16 11:46:26 device-monitor INFO: IP 192.168.246.76 accessed endpoint, response 503
+[2025-11-16 11:46:26] INFO: Request from 192.168.176.116 - Status: 201
+[2025-11-16 11:46:26] CRITICAL: Request from 192.168.93.136 - Status: 403
+192.168.216.107 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 200 1234
+[2025-11-16 11:46:26] WARN: Request from 192.168.221.247 - Status: 503
+192.168.63.19 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 403 1234
+2025-11-16 11:46:26 device-monitor CRITICAL: IP 192.168.93.136 accessed endpoint, response 500
+[2025-11-16 11:46:26] INFO: Request from 192.168.246.76 - Status: 200
+[2025-11-16 11:46:26] ERROR: Request from 192.168.217.42 - Status: 201
+192.168.139.55 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 201 1234
+[2025-11-16 11:46:26] INFO: Request from 192.168.150.234 - Status: 200
+2025-11-16 11:46:26 device-monitor CRITICAL: IP 192.168.138.40 accessed endpoint, response 400
+2025-11-16 11:46:26 device-monitor INFO: IP 192.168.164.51 accessed endpoint, response 502
+2025-11-16 11:46:26 device-monitor INFO: IP 192.168.18.37 accessed endpoint, response 200
+[2025-11-16 11:46:26] INFO: Request from 192.168.255.126 - Status: 500
+2025-11-16 11:46:26 device-monitor ERROR: IP 192.168.161.60 accessed endpoint, response 503
+[2025-11-16 11:46:26] ERROR: Request from 192.168.66.77 - Status: 404
+192.168.250.93 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 502 1234
+[2025-11-16 11:46:26] ERROR: Request from 192.168.73.99 - Status: 400
+[2025-11-16 11:46:26] CRITICAL: Request from 192.168.178.222 - Status: 401
+[2025-11-16 11:46:26] INFO: Request from 192.168.150.234 - Status: 200
+192.168.68.204 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 200 1234
+192.168.200.201 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 401 1234
+[2025-11-16 11:46:26] ERROR: Request from 192.168.18.68 - Status: 502
+[2025-11-16 11:46:26] CRITICAL: Request from 192.168.59.60 - Status: 404
+2025-11-16 11:46:26 device-monitor ERROR: IP 192.168.230.16 accessed endpoint, response 400
+2025-11-16 11:46:26 device-monitor INFO: IP 192.168.84.120 accessed endpoint, response 503
+2025-11-16 11:46:26 device-monitor CRITICAL: IP 192.168.176.116 accessed endpoint, response 401
+2025-11-16 11:46:26 device-monitor INFO: IP 192.168.46.173 accessed endpoint, response 304
+2025-11-16 11:46:26 device-monitor INFO: IP 192.168.73.99 accessed endpoint, response 201
+192.168.59.60 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 400 1234
+192.168.219.144 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 200 1234
+[2025-11-16 11:46:26] WARN: Request from 192.168.164.51 - Status: 401
+192.168.255.126 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 200 1234
+[2025-11-16 11:46:26] INFO: Request from 192.168.230.16 - Status: 503
+2025-11-16 11:46:26 device-monitor INFO: IP 192.168.45.1 accessed endpoint, response 404
+2025-11-16 11:46:26 device-monitor INFO: IP 192.168.230.16 accessed endpoint, response 500
+192.168.178.222 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 403 1234
+2025-11-16 11:46:26 device-monitor ERROR: IP 192.168.12.133 accessed endpoint, response 200
+2025-11-16 11:46:26 device-monitor INFO: IP 192.168.46.173 accessed endpoint, response 401
+192.168.187.223 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 502 1234
+2025-11-16 11:46:26 device-monitor INFO: IP 192.168.127.140 accessed endpoint, response 304
+[2025-11-16 11:46:26] INFO: Request from 192.168.178.222 - Status: 500
+[2025-11-16 11:46:26] INFO: Request from 192.168.126.246 - Status: 200
+2025-11-16 11:46:26 device-monitor ERROR: IP 192.168.27.222 accessed endpoint, response 304
+192.168.232.38 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 200 1234
+[2025-11-16 11:46:26] INFO: Request from 192.168.161.60 - Status: 200
+192.168.178.222 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 304 1234
+2025-11-16 11:46:26 device-monitor ERROR: IP 192.168.147.14 accessed endpoint, response 400
+192.168.147.14 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 200 1234
+2025-11-16 11:46:26 device-monitor ERROR: IP 192.168.161.60 accessed endpoint, response 401
+[2025-11-16 11:46:26] CRITICAL: Request from 192.168.18.37 - Status: 401
+192.168.226.154 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 502 1234
+2025-11-16 11:46:26 device-monitor INFO: IP 192.168.246.76 accessed endpoint, response 500
+[2025-11-16 11:46:26] INFO: Request from 192.168.66.52 - Status: 200
+2025-11-16 11:46:26 device-monitor CRITICAL: IP 192.168.255.126 accessed endpoint, response 500
+[2025-11-16 11:46:26] INFO: Request from 192.168.216.107 - Status: 200
+[2025-11-16 11:46:26] CRITICAL: Request from 192.168.127.140 - Status: 503
+[2025-11-16 11:46:26] ERROR: Request from 192.168.250.179 - Status: 304
+192.168.176.116 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 200 1234
+[2025-11-16 11:46:26] INFO: Request from 192.168.18.37 - Status: 502
+192.168.219.144 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 500 1234
+192.168.221.247 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 200 1234
+192.168.147.14 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 403 1234
+192.168.221.247 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 201 1234
+2025-11-16 11:46:26 device-monitor ERROR: IP 192.168.161.60 accessed endpoint, response 503
+192.168.216.107 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 502 1234
+2025-11-16 11:46:26 device-monitor CRITICAL: IP 192.168.45.1 accessed endpoint, response 200
+2025-11-16 11:46:26 device-monitor ERROR: IP 192.168.250.93 accessed endpoint, response 400
+[2025-11-16 11:46:26] INFO: Request from 192.168.232.38 - Status: 500
+2025-11-16 11:46:26 device-monitor INFO: IP 192.168.223.115 accessed endpoint, response 503
+2025-11-16 11:46:26 device-monitor INFO: IP 192.168.130.155 accessed endpoint, response 200
+[2025-11-16 11:46:26] INFO: Request from 192.168.164.51 - Status: 401
+2025-11-16 11:46:26 device-monitor ERROR: IP 192.168.176.116 accessed endpoint, response 200
+2025-11-16 11:46:26 device-monitor INFO: IP 192.168.223.115 accessed endpoint, response 200
+[2025-11-16 11:46:26] ERROR: Request from 192.168.143.61 - Status: 200
+192.168.226.154 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 200 1234
+[2025-11-16 11:46:26] CRITICAL: Request from 192.168.176.116 - Status: 500
+[2025-11-16 11:46:26] ERROR: Request from 192.168.68.204 - Status: 200
+[2025-11-16 11:46:26] INFO: Request from 192.168.231.140 - Status: 200
+[2025-11-16 11:46:26] INFO: Request from 192.168.166.186 - Status: 200
+2025-11-16 11:46:26 device-monitor CRITICAL: IP 192.168.176.116 accessed endpoint, response 403
+[2025-11-16 11:46:26] CRITICAL: Request from 192.168.138.40 - Status: 201
+2025-11-16 11:46:26 device-monitor CRITICAL: IP 192.168.127.140 accessed endpoint, response 201
+192.168.18.37 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 200 1234
+[2025-11-16 11:46:26] INFO: Request from 192.168.223.115 - Status: 503
+192.168.61.162 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 400 1234
+[2025-11-16 11:46:26] ERROR: Request from 192.168.61.162 - Status: 404
+[2025-11-16 11:46:26] INFO: Request from 192.168.217.42 - Status: 201
+[2025-11-16 11:46:26] INFO: Request from 192.168.176.116 - Status: 404
+2025-11-16 11:46:26 device-monitor INFO: IP 192.168.178.222 accessed endpoint, response 304
+192.168.27.222 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 200 1234
+192.168.43.238 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 201 1234
+192.168.68.204 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 502 1234
+2025-11-16 11:46:26 device-monitor INFO: IP 192.168.226.154 accessed endpoint, response 403
+192.168.84.120 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 200 1234
+2025-11-16 11:46:26 device-monitor WARN: IP 192.168.59.60 accessed endpoint, response 502
+192.168.147.14 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 304 1234
+192.168.178.222 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 404 1234
+192.168.255.126 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 304 1234
+2025-11-16 11:46:26 device-monitor INFO: IP 192.168.150.234 accessed endpoint, response 401
+192.168.61.162 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 400 1234
+2025-11-16 11:46:26 device-monitor INFO: IP 192.168.63.19 accessed endpoint, response 502
+192.168.223.115 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 200 1234
+[2025-11-16 11:46:26] INFO: Request from 192.168.250.93 - Status: 400
+[2025-11-16 11:46:26] INFO: Request from 192.168.12.133 - Status: 403
+2025-11-16 11:46:26 device-monitor INFO: IP 192.168.59.60 accessed endpoint, response 400
+[2025-11-16 11:46:26] INFO: Request from 192.168.230.16 - Status: 403
+192.168.43.238 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 304 1234
+2025-11-16 11:46:26 device-monitor ERROR: IP 192.168.93.136 accessed endpoint, response 200
+[2025-11-16 11:46:26] INFO: Request from 192.168.139.55 - Status: 404
+[2025-11-16 11:46:26] CRITICAL: Request from 192.168.216.107 - Status: 201
+192.168.12.133 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 200 1234
+2025-11-16 11:46:26 device-monitor CRITICAL: IP 192.168.143.61 accessed endpoint, response 404
+[2025-11-16 11:46:26] ERROR: Request from 192.168.18.37 - Status: 400
+2025-11-16 11:46:26 device-monitor INFO: IP 192.168.126.246 accessed endpoint, response 403
+2025-11-16 11:46:26 device-monitor INFO: IP 192.168.63.19 accessed endpoint, response 500
+2025-11-16 11:46:26 device-monitor ERROR: IP 192.168.226.154 accessed endpoint, response 502
+2025-11-16 11:46:26 device-monitor WARN: IP 192.168.43.238 accessed endpoint, response 401
+192.168.161.60 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 403 1234
+2025-11-16 11:46:26 device-monitor CRITICAL: IP 192.168.219.144 accessed endpoint, response 500
+192.168.250.93 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 304 1234
+2025-11-16 11:46:26 device-monitor ERROR: IP 192.168.250.93 accessed endpoint, response 500
+2025-11-16 11:46:26 device-monitor INFO: IP 192.168.250.179 accessed endpoint, response 401
+2025-11-16 11:46:26 device-monitor ERROR: IP 192.168.63.19 accessed endpoint, response 304
+192.168.178.222 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 304 1234
+2025-11-16 11:46:26 device-monitor INFO: IP 192.168.217.42 accessed endpoint, response 500
+192.168.250.179 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 201 1234
+[2025-11-16 11:46:26] CRITICAL: Request from 192.168.176.116 - Status: 401
+192.168.127.140 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 404 1234
+[2025-11-16 11:46:26] ERROR: Request from 192.168.27.222 - Status: 200
+2025-11-16 11:46:26 device-monitor ERROR: IP 192.168.217.42 accessed endpoint, response 404
+2025-11-16 11:46:26 device-monitor INFO: IP 192.168.200.201 accessed endpoint, response 201
+192.168.221.247 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 400 1234
+192.168.250.93 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 200 1234
+2025-11-16 11:46:26 device-monitor ERROR: IP 192.168.59.60 accessed endpoint, response 304
+[2025-11-16 11:46:26] INFO: Request from 192.168.18.37 - Status: 503
+192.168.250.179 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 403 1234
+192.168.138.40 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 304 1234
+2025-11-16 11:46:26 device-monitor ERROR: IP 192.168.27.222 accessed endpoint, response 500
+2025-11-16 11:46:26 device-monitor INFO: IP 192.168.147.14 accessed endpoint, response 200
+2025-11-16 11:46:26 device-monitor INFO: IP 192.168.43.238 accessed endpoint, response 200
+192.168.18.37 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 200 1234
+192.168.164.51 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 200 1234
+192.168.38.107 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 401 1234
+[2025-11-16 11:46:26] ERROR: Request from 192.168.59.60 - Status: 200
+2025-11-16 11:46:26 device-monitor ERROR: IP 192.168.17.186 accessed endpoint, response 502
+192.168.46.173 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 200 1234
+[2025-11-16 11:46:26] CRITICAL: Request from 192.168.178.222 - Status: 502
+[2025-11-16 11:46:26] ERROR: Request from 192.168.246.76 - Status: 201
+[2025-11-16 11:46:26] WARN: Request from 192.168.18.68 - Status: 403
+[2025-11-16 11:46:26] ERROR: Request from 192.168.226.154 - Status: 404
+[2025-11-16 11:46:26] INFO: Request from 192.168.138.40 - Status: 403
+[2025-11-16 11:46:26] ERROR: Request from 192.168.127.140 - Status: 200
+2025-11-16 11:46:26 device-monitor WARN: IP 192.168.146.212 accessed endpoint, response 400
+192.168.139.55 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 200 1234
+[2025-11-16 11:46:26] INFO: Request from 192.168.59.60 - Status: 200
+2025-11-16 11:46:26 device-monitor INFO: IP 192.168.18.68 accessed endpoint, response 400
+192.168.187.223 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 200 1234
+2025-11-16 11:46:26 device-monitor ERROR: IP 192.168.68.204 accessed endpoint, response 404
+2025-11-16 11:46:26 device-monitor INFO: IP 192.168.166.186 accessed endpoint, response 502
+[2025-11-16 11:46:26] INFO: Request from 192.168.146.212 - Status: 500
+192.168.219.144 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 200 1234
+2025-11-16 11:46:26 device-monitor INFO: IP 192.168.18.37 accessed endpoint, response 404
+[2025-11-16 11:46:26] CRITICAL: Request from 192.168.84.120 - Status: 502
+2025-11-16 11:46:26 device-monitor CRITICAL: IP 192.168.187.223 accessed endpoint, response 200
+[2025-11-16 11:46:26] CRITICAL: Request from 192.168.143.61 - Status: 403
+[2025-11-16 11:46:26] INFO: Request from 192.168.12.116 - Status: 200
+[2025-11-16 11:46:26] WARN: Request from 192.168.43.238 - Status: 200
+192.168.126.246 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 503 1234
+[2025-11-16 11:46:26] INFO: Request from 192.168.93.136 - Status: 404
+[2025-11-16 11:46:26] CRITICAL: Request from 192.168.68.204 - Status: 404
+[2025-11-16 11:46:26] WARN: Request from 192.168.221.247 - Status: 502
+192.168.63.19 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 200 1234
+[2025-11-16 11:46:26] CRITICAL: Request from 192.168.126.246 - Status: 404
+2025-11-16 11:46:26 device-monitor INFO: IP 192.168.176.116 accessed endpoint, response 304
+192.168.93.136 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 200 1234
+[2025-11-16 11:46:26] CRITICAL: Request from 192.168.226.154 - Status: 201
+192.168.146.212 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 500 1234
+2025-11-16 11:46:26 device-monitor WARN: IP 192.168.246.76 accessed endpoint, response 404
+[2025-11-16 11:46:26] ERROR: Request from 192.168.126.246 - Status: 200
+192.168.61.24 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 400 1234
+2025-11-16 11:46:26 device-monitor ERROR: IP 192.168.143.61 accessed endpoint, response 500
+2025-11-16 11:46:26 device-monitor INFO: IP 192.168.84.120 accessed endpoint, response 200
+2025-11-16 11:46:26 device-monitor WARN: IP 192.168.18.68 accessed endpoint, response 502
+2025-11-16 11:46:26 device-monitor INFO: IP 192.168.66.52 accessed endpoint, response 500
+[2025-11-16 11:46:26] ERROR: Request from 192.168.250.179 - Status: 200
+2025-11-16 11:46:26 device-monitor ERROR: IP 192.168.68.204 accessed endpoint, response 502
+2025-11-16 11:46:26 device-monitor INFO: IP 192.168.46.173 accessed endpoint, response 403
+2025-11-16 11:46:26 device-monitor WARN: IP 192.168.150.234 accessed endpoint, response 200
+192.168.93.136 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 500 1234
+[2025-11-16 11:46:26] INFO: Request from 192.168.219.144 - Status: 201
+192.168.61.162 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 200 1234
+192.168.66.52 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 500 1234
+2025-11-16 11:46:26 device-monitor INFO: IP 192.168.176.116 accessed endpoint, response 200
+[2025-11-16 11:46:26] ERROR: Request from 192.168.166.186 - Status: 404
+2025-11-16 11:46:26 device-monitor INFO: IP 192.168.143.61 accessed endpoint, response 200
+192.168.139.55 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 403 1234
+192.168.164.51 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 200 1234
+192.168.59.60 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 500 1234
+192.168.59.60 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 200 1234
+192.168.66.52 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 304 1234
+2025-11-16 11:46:26 device-monitor WARN: IP 192.168.255.126 accessed endpoint, response 200
+[2025-11-16 11:46:26] ERROR: Request from 192.168.143.61 - Status: 503
+192.168.146.212 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 403 1234
+2025-11-16 11:46:26 device-monitor INFO: IP 192.168.46.173 accessed endpoint, response 304
+2025-11-16 11:46:26 device-monitor INFO: IP 192.168.178.222 accessed endpoint, response 403
+2025-11-16 11:46:26 device-monitor INFO: IP 192.168.250.179 accessed endpoint, response 500
+[2025-11-16 11:46:26] WARN: Request from 192.168.223.115 - Status: 200
+[2025-11-16 11:46:26] CRITICAL: Request from 192.168.164.51 - Status: 404
+[2025-11-16 11:46:26] CRITICAL: Request from 192.168.93.136 - Status: 400
+[2025-11-16 11:46:26] ERROR: Request from 192.168.127.140 - Status: 404
+[2025-11-16 11:46:26] WARN: Request from 192.168.221.247 - Status: 400
+2025-11-16 11:46:26 device-monitor ERROR: IP 192.168.176.116 accessed endpoint, response 403
+2025-11-16 11:46:26 device-monitor CRITICAL: IP 192.168.150.234 accessed endpoint, response 502
+2025-11-16 11:46:26 device-monitor INFO: IP 192.168.130.155 accessed endpoint, response 201
+[2025-11-16 11:46:26] ERROR: Request from 192.168.66.52 - Status: 200
+2025-11-16 11:46:26 device-monitor INFO: IP 192.168.226.154 accessed endpoint, response 500
+[2025-11-16 11:46:26] ERROR: Request from 192.168.250.93 - Status: 400
+[2025-11-16 11:46:26] ERROR: Request from 192.168.219.144 - Status: 200
+[2025-11-16 11:46:26] INFO: Request from 192.168.200.201 - Status: 401
+[2025-11-16 11:46:26] ERROR: Request from 192.168.161.60 - Status: 200
+[2025-11-16 11:46:26] INFO: Request from 192.168.63.19 - Status: 403
+2025-11-16 11:46:26 device-monitor ERROR: IP 192.168.73.99 accessed endpoint, response 503
+[2025-11-16 11:46:26] INFO: Request from 192.168.221.247 - Status: 200
+[2025-11-16 11:46:26] WARN: Request from 192.168.223.115 - Status: 200
+192.168.66.77 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 201 1234
+192.168.176.116 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 200 1234
+[2025-11-16 11:46:26] WARN: Request from 192.168.166.186 - Status: 200
+2025-11-16 11:46:26 device-monitor ERROR: IP 192.168.187.223 accessed endpoint, response 200
+192.168.130.155 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 201 1234
+192.168.45.1 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 400 1234
+192.168.143.61 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 503 1234
+2025-11-16 11:46:26 device-monitor INFO: IP 192.168.27.222 accessed endpoint, response 401
+2025-11-16 11:46:26 device-monitor ERROR: IP 192.168.161.60 accessed endpoint, response 200
+[2025-11-16 11:46:26] CRITICAL: Request from 192.168.139.55 - Status: 400
+192.168.61.162 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 400 1234
+192.168.250.93 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 502 1234
+[2025-11-16 11:46:26] CRITICAL: Request from 192.168.126.246 - Status: 200
+[2025-11-16 11:46:26] ERROR: Request from 192.168.93.136 - Status: 502
+[2025-11-16 11:46:26] INFO: Request from 192.168.66.77 - Status: 403
+[2025-11-16 11:46:26] INFO: Request from 192.168.127.140 - Status: 200
+2025-11-16 11:46:26 device-monitor WARN: IP 192.168.232.38 accessed endpoint, response 200
+2025-11-16 11:46:26 device-monitor INFO: IP 192.168.127.140 accessed endpoint, response 401
+2025-11-16 11:46:26 device-monitor WARN: IP 192.168.200.201 accessed endpoint, response 500
+192.168.73.99 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 304 1234
+[2025-11-16 11:46:26] WARN: Request from 192.168.38.107 - Status: 200
+192.168.150.234 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 304 1234
+192.168.73.99 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 400 1234
+[2025-11-16 11:46:26] INFO: Request from 192.168.66.77 - Status: 200
+192.168.38.107 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 200 1234
+192.168.138.40 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 500 1234
+[2025-11-16 11:46:26] WARN: Request from 192.168.38.107 - Status: 304
+[2025-11-16 11:46:26] CRITICAL: Request from 192.168.18.37 - Status: 200
+192.168.73.99 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 404 1234
+2025-11-16 11:46:26 device-monitor CRITICAL: IP 192.168.216.107 accessed endpoint, response 200
+2025-11-16 11:46:26 device-monitor ERROR: IP 192.168.66.52 accessed endpoint, response 200
+[2025-11-16 11:46:26] WARN: Request from 192.168.43.238 - Status: 200
+2025-11-16 11:46:26 device-monitor INFO: IP 192.168.200.201 accessed endpoint, response 403
+192.168.147.14 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 200 1234
+192.168.219.144 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 400 1234
+[2025-11-16 11:46:26] WARN: Request from 192.168.166.186 - Status: 404
+192.168.43.238 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 201 1234
+[2025-11-16 11:46:26] INFO: Request from 192.168.38.107 - Status: 403
+[2025-11-16 11:46:26] INFO: Request from 192.168.27.222 - Status: 500
+192.168.46.173 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 404 1234
+[2025-11-16 11:46:26] ERROR: Request from 192.168.166.186 - Status: 201
+192.168.230.16 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 403 1234
+2025-11-16 11:46:26 device-monitor INFO: IP 192.168.230.16 accessed endpoint, response 500
+2025-11-16 11:46:26 device-monitor WARN: IP 192.168.127.140 accessed endpoint, response 200
+[2025-11-16 11:46:26] ERROR: Request from 192.168.12.133 - Status: 304
+[2025-11-16 11:46:26] INFO: Request from 192.168.187.223 - Status: 201
+192.168.250.179 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 200 1234
+192.168.143.61 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 502 1234
+2025-11-16 11:46:26 device-monitor INFO: IP 192.168.18.68 accessed endpoint, response 400
+192.168.73.99 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 401 1234
+[2025-11-16 11:46:26] WARN: Request from 192.168.230.16 - Status: 503
+2025-11-16 11:46:26 device-monitor CRITICAL: IP 192.168.250.93 accessed endpoint, response 304
+192.168.138.40 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 200 1234
+192.168.66.52 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 304 1234
+[2025-11-16 11:46:26] INFO: Request from 192.168.38.107 - Status: 401
+192.168.68.204 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 404 1234
+192.168.63.19 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 403 1234
+2025-11-16 11:46:26 device-monitor INFO: IP 192.168.38.107 accessed endpoint, response 404
+2025-11-16 11:46:26 device-monitor CRITICAL: IP 192.168.18.37 accessed endpoint, response 200
+2025-11-16 11:46:26 device-monitor INFO: IP 192.168.18.37 accessed endpoint, response 200
+192.168.18.68 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 401 1234
+192.168.139.55 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 500 1234
+2025-11-16 11:46:26 device-monitor CRITICAL: IP 192.168.223.115 accessed endpoint, response 403
+192.168.143.61 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 503 1234
+192.168.17.186 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 502 1234
+2025-11-16 11:46:26 device-monitor INFO: IP 192.168.43.238 accessed endpoint, response 503
+[2025-11-16 11:46:26] ERROR: Request from 192.168.27.222 - Status: 200
+2025-11-16 11:46:26 device-monitor CRITICAL: IP 192.168.61.162 accessed endpoint, response 200
+192.168.38.107 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 304 1234
+2025-11-16 11:46:26 device-monitor ERROR: IP 192.168.127.140 accessed endpoint, response 502
+2025-11-16 11:46:26 device-monitor INFO: IP 192.168.46.173 accessed endpoint, response 404
+2025-11-16 11:46:26 device-monitor ERROR: IP 192.168.164.49 accessed endpoint, response 403
+2025-11-16 11:46:26 device-monitor INFO: IP 192.168.93.136 accessed endpoint, response 503
+[2025-11-16 11:46:26] ERROR: Request from 192.168.18.68 - Status: 502
+[2025-11-16 11:46:26] ERROR: Request from 192.168.66.77 - Status: 403
+2025-11-16 11:46:26 device-monitor CRITICAL: IP 192.168.138.40 accessed endpoint, response 200
+2025-11-16 11:46:26 device-monitor ERROR: IP 192.168.250.93 accessed endpoint, response 200
+2025-11-16 11:46:26 device-monitor ERROR: IP 192.168.139.55 accessed endpoint, response 200
+[2025-11-16 11:46:26] ERROR: Request from 192.168.38.107 - Status: 404
+2025-11-16 11:46:26 device-monitor ERROR: IP 192.168.166.186 accessed endpoint, response 403
+2025-11-16 11:46:26 device-monitor INFO: IP 192.168.93.136 accessed endpoint, response 200
+2025-11-16 11:46:26 device-monitor INFO: IP 192.168.61.24 accessed endpoint, response 403
+[2025-11-16 11:46:26] ERROR: Request from 192.168.200.201 - Status: 201
+192.168.161.60 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 200 1234
+192.168.230.16 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 500 1234
+2025-11-16 11:46:26 device-monitor INFO: IP 192.168.246.76 accessed endpoint, response 200
+192.168.250.179 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 201 1234
+2025-11-16 11:46:26 device-monitor ERROR: IP 192.168.17.186 accessed endpoint, response 400
+[2025-11-16 11:46:26] CRITICAL: Request from 192.168.45.1 - Status: 500
+2025-11-16 11:46:26 device-monitor INFO: IP 192.168.178.222 accessed endpoint, response 201
+192.168.216.107 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 201 1234
+2025-11-16 11:46:26 device-monitor INFO: IP 192.168.138.40 accessed endpoint, response 500
+2025-11-16 11:46:26 device-monitor INFO: IP 192.168.216.107 accessed endpoint, response 401
+192.168.147.14 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 200 1234
+[2025-11-16 11:46:26] CRITICAL: Request from 192.168.38.107 - Status: 500
+2025-11-16 11:46:26 device-monitor ERROR: IP 192.168.219.144 accessed endpoint, response 200
+[2025-11-16 11:46:26] ERROR: Request from 192.168.147.14 - Status: 403
+2025-11-16 11:46:26 device-monitor INFO: IP 192.168.12.133 accessed endpoint, response 404
+192.168.43.238 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 500 1234
+2025-11-16 11:46:26 device-monitor INFO: IP 192.168.187.223 accessed endpoint, response 401
+192.168.246.76 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 200 1234
+2025-11-16 11:46:26 device-monitor WARN: IP 192.168.127.140 accessed endpoint, response 200
+[2025-11-16 11:46:26] CRITICAL: Request from 192.168.126.246 - Status: 200
+[2025-11-16 11:46:26] INFO: Request from 192.168.143.61 - Status: 502
+[2025-11-16 11:46:26] INFO: Request from 192.168.17.186 - Status: 401
+192.168.217.42 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 502 1234
+2025-11-16 11:46:26 device-monitor INFO: IP 192.168.221.247 accessed endpoint, response 403
+192.168.166.186 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 404 1234
+2025-11-16 11:46:26 device-monitor ERROR: IP 192.168.176.116 accessed endpoint, response 502
+2025-11-16 11:46:26 device-monitor INFO: IP 192.168.59.60 accessed endpoint, response 403
+[2025-11-16 11:46:26] CRITICAL: Request from 192.168.176.116 - Status: 403
+[2025-11-16 11:46:26] INFO: Request from 192.168.176.116 - Status: 200
+192.168.73.99 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 201 1234
+[2025-11-16 11:46:26] ERROR: Request from 192.168.73.99 - Status: 403
+2025-11-16 11:46:26 device-monitor INFO: IP 192.168.61.24 accessed endpoint, response 201
+[2025-11-16 11:46:26] INFO: Request from 192.168.130.155 - Status: 502
+192.168.143.61 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 401 1234
+[2025-11-16 11:46:26] CRITICAL: Request from 192.168.17.186 - Status: 502
+192.168.223.115 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 200 1234
+[2025-11-16 11:46:26] ERROR: Request from 192.168.250.93 - Status: 502
+2025-11-16 11:46:26 device-monitor WARN: IP 192.168.63.19 accessed endpoint, response 401
+2025-11-16 11:46:26 device-monitor ERROR: IP 192.168.68.204 accessed endpoint, response 404
+192.168.130.155 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 200 1234
+192.168.46.173 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 200 1234
+[2025-11-16 11:46:26] INFO: Request from 192.168.93.136 - Status: 503
+[2025-11-16 11:46:26] INFO: Request from 192.168.161.60 - Status: 500
+[2025-11-16 11:46:26] CRITICAL: Request from 192.168.217.42 - Status: 403
+[2025-11-16 11:46:26] WARN: Request from 192.168.138.40 - Status: 200
+[2025-11-16 11:46:26] ERROR: Request from 192.168.250.93 - Status: 401
+192.168.255.126 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 201 1234
+192.168.45.1 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 404 1234
+2025-11-16 11:46:26 device-monitor ERROR: IP 192.168.68.204 accessed endpoint, response 200
+[2025-11-16 11:46:26] INFO: Request from 192.168.59.60 - Status: 500
+2025-11-16 11:46:26 device-monitor WARN: IP 192.168.164.49 accessed endpoint, response 503
+2025-11-16 11:46:26 device-monitor WARN: IP 192.168.63.19 accessed endpoint, response 200
+192.168.66.77 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 200 1234
+192.168.223.115 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 500 1234
+192.168.138.40 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 401 1234
+192.168.250.179 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 500 1234
+2025-11-16 11:46:26 device-monitor CRITICAL: IP 192.168.255.126 accessed endpoint, response 400
+[2025-11-16 11:46:26] INFO: Request from 192.168.164.51 - Status: 401
+[2025-11-16 11:46:26] INFO: Request from 192.168.150.234 - Status: 500
+[2025-11-16 11:46:26] CRITICAL: Request from 192.168.93.136 - Status: 200
+[2025-11-16 11:46:26] WARN: Request from 192.168.219.144 - Status: 200
+[2025-11-16 11:46:26] ERROR: Request from 192.168.217.42 - Status: 400
+[2025-11-16 11:46:26] CRITICAL: Request from 192.168.250.93 - Status: 304
+2025-11-16 11:46:26 device-monitor ERROR: IP 192.168.17.186 accessed endpoint, response 200
+[2025-11-16 11:46:26] CRITICAL: Request from 192.168.63.19 - Status: 200
+192.168.200.201 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 200 1234
+2025-11-16 11:46:26 device-monitor INFO: IP 192.168.27.222 accessed endpoint, response 503
+2025-11-16 11:46:26 device-monitor CRITICAL: IP 192.168.143.61 accessed endpoint, response 401
+2025-11-16 11:46:26 device-monitor INFO: IP 192.168.150.234 accessed endpoint, response 401
+2025-11-16 11:46:26 device-monitor ERROR: IP 192.168.59.60 accessed endpoint, response 500
+192.168.232.38 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 200 1234
+192.168.139.55 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 200 1234
+192.168.84.120 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 200 1234
+192.168.43.238 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 403 1234
+2025-11-16 11:46:26 device-monitor INFO: IP 192.168.17.186 accessed endpoint, response 304
+[2025-11-16 11:46:26] CRITICAL: Request from 192.168.143.61 - Status: 403
+[2025-11-16 11:46:26] INFO: Request from 192.168.147.14 - Status: 500
+192.168.93.136 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 200 1234
+2025-11-16 11:46:26 device-monitor INFO: IP 192.168.66.52 accessed endpoint, response 500
+2025-11-16 11:46:26 device-monitor INFO: IP 192.168.68.204 accessed endpoint, response 200
+[2025-11-16 11:46:26] INFO: Request from 192.168.66.77 - Status: 304
+192.168.138.40 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 502 1234
+192.168.178.222 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 500 1234
+192.168.221.247 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 200 1234
+[2025-11-16 11:46:26] ERROR: Request from 192.168.130.155 - Status: 404
+192.168.61.162 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 200 1234
+192.168.230.16 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 401 1234
+[2025-11-16 11:46:26] ERROR: Request from 192.168.43.238 - Status: 304
+192.168.231.140 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 304 1234
+[2025-11-16 11:46:26] ERROR: Request from 192.168.216.107 - Status: 404
+2025-11-16 11:46:26 device-monitor CRITICAL: IP 192.168.93.136 accessed endpoint, response 503
+192.168.61.162 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 400 1234
+192.168.38.107 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 404 1234
+[2025-11-16 11:46:26] WARN: Request from 192.168.146.212 - Status: 403
+192.168.221.247 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 403 1234
+192.168.73.99 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 503 1234
+2025-11-16 11:46:26 device-monitor ERROR: IP 192.168.250.179 accessed endpoint, response 400
+2025-11-16 11:46:26 device-monitor ERROR: IP 192.168.230.16 accessed endpoint, response 200
+192.168.59.60 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 500 1234
+[2025-11-16 11:46:26] INFO: Request from 192.168.223.115 - Status: 304
+192.168.178.222 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 503 1234
+192.168.73.99 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 200 1234
+[2025-11-16 11:46:26] CRITICAL: Request from 192.168.164.51 - Status: 502
+2025-11-16 11:46:26 device-monitor INFO: IP 192.168.46.173 accessed endpoint, response 200
+2025-11-16 11:46:26 device-monitor INFO: IP 192.168.246.76 accessed endpoint, response 200
+2025-11-16 11:46:26 device-monitor WARN: IP 192.168.250.93 accessed endpoint, response 401
+192.168.17.186 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 401 1234
+2025-11-16 11:46:26 device-monitor INFO: IP 192.168.66.77 accessed endpoint, response 502
+2025-11-16 11:46:26 device-monitor CRITICAL: IP 192.168.164.51 accessed endpoint, response 503
+2025-11-16 11:46:26 device-monitor INFO: IP 192.168.127.140 accessed endpoint, response 200
+2025-11-16 11:46:26 device-monitor INFO: IP 192.168.231.140 accessed endpoint, response 400
+[2025-11-16 11:46:26] ERROR: Request from 192.168.164.51 - Status: 404
+[2025-11-16 11:46:26] INFO: Request from 192.168.12.133 - Status: 304
+2025-11-16 11:46:26 device-monitor INFO: IP 192.168.161.60 accessed endpoint, response 503
+192.168.231.140 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 200 1234
+[2025-11-16 11:46:26] INFO: Request from 192.168.164.49 - Status: 404
+192.168.226.154 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 500 1234
+[2025-11-16 11:46:26] INFO: Request from 192.168.217.42 - Status: 404
+2025-11-16 11:46:26 device-monitor ERROR: IP 192.168.63.19 accessed endpoint, response 401
+192.168.255.126 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 201 1234
+[2025-11-16 11:46:26] CRITICAL: Request from 192.168.187.223 - Status: 200
+192.168.219.144 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 401 1234
+192.168.61.162 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 403 1234
+2025-11-16 11:46:26 device-monitor ERROR: IP 192.168.146.212 accessed endpoint, response 200
+[2025-11-16 11:46:26] CRITICAL: Request from 192.168.43.238 - Status: 201
+192.168.59.60 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 200 1234
+[2025-11-16 11:46:26] ERROR: Request from 192.168.216.107 - Status: 201
+192.168.45.1 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 200 1234
+192.168.139.55 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 503 1234
+2025-11-16 11:46:26 device-monitor CRITICAL: IP 192.168.246.76 accessed endpoint, response 201
+192.168.59.60 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 500 1234
+192.168.43.238 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 400 1234
+[2025-11-16 11:46:26] CRITICAL: Request from 192.168.68.204 - Status: 201
+[2025-11-16 11:46:26] INFO: Request from 192.168.232.38 - Status: 403
+2025-11-16 11:46:26 device-monitor CRITICAL: IP 192.168.66.52 accessed endpoint, response 400
+2025-11-16 11:46:26 device-monitor INFO: IP 192.168.230.16 accessed endpoint, response 200
+[2025-11-16 11:46:26] INFO: Request from 192.168.130.155 - Status: 500
+[2025-11-16 11:46:26] INFO: Request from 192.168.187.223 - Status: 401
+[2025-11-16 11:46:26] INFO: Request from 192.168.250.93 - Status: 400
+2025-11-16 11:46:26 device-monitor INFO: IP 192.168.126.246 accessed endpoint, response 401
+2025-11-16 11:46:26 device-monitor ERROR: IP 192.168.176.116 accessed endpoint, response 200
+[2025-11-16 11:46:26] INFO: Request from 192.168.38.107 - Status: 400
+2025-11-16 11:46:26 device-monitor INFO: IP 192.168.127.140 accessed endpoint, response 500
+2025-11-16 11:46:26 device-monitor INFO: IP 192.168.164.49 accessed endpoint, response 200
+[2025-11-16 11:46:26] CRITICAL: Request from 192.168.147.14 - Status: 404
+[2025-11-16 11:46:26] INFO: Request from 192.168.230.16 - Status: 404
+192.168.246.76 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 201 1234
+192.168.161.60 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 403 1234
+[2025-11-16 11:46:26] INFO: Request from 192.168.130.155 - Status: 200
+2025-11-16 11:46:26 device-monitor ERROR: IP 192.168.200.201 accessed endpoint, response 400
+[2025-11-16 11:46:26] CRITICAL: Request from 192.168.150.234 - Status: 400
+192.168.250.93 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 401 1234
+[2025-11-16 11:46:26] CRITICAL: Request from 192.168.127.140 - Status: 304
+192.168.130.155 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 403 1234
+2025-11-16 11:46:26 device-monitor INFO: IP 192.168.138.40 accessed endpoint, response 403
+[2025-11-16 11:46:26] CRITICAL: Request from 192.168.178.222 - Status: 502
+[2025-11-16 11:46:26] WARN: Request from 192.168.221.247 - Status: 401
+192.168.38.107 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 304 1234
+2025-11-16 11:46:26 device-monitor INFO: IP 192.168.187.223 accessed endpoint, response 503
+192.168.164.51 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 200 1234
+2025-11-16 11:46:26 device-monitor INFO: IP 192.168.43.238 accessed endpoint, response 503
+2025-11-16 11:46:26 device-monitor INFO: IP 192.168.223.115 accessed endpoint, response 400
+192.168.127.140 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 401 1234
+2025-11-16 11:46:26 device-monitor INFO: IP 192.168.200.201 accessed endpoint, response 200
+[2025-11-16 11:46:26] WARN: Request from 192.168.217.42 - Status: 404
+2025-11-16 11:46:26 device-monitor INFO: IP 192.168.200.201 accessed endpoint, response 201
+[2025-11-16 11:46:26] WARN: Request from 192.168.66.77 - Status: 400
+192.168.219.144 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 400 1234
+2025-11-16 11:46:26 device-monitor INFO: IP 192.168.226.154 accessed endpoint, response 400
+2025-11-16 11:46:26 device-monitor INFO: IP 192.168.246.76 accessed endpoint, response 401
+2025-11-16 11:46:26 device-monitor INFO: IP 192.168.164.51 accessed endpoint, response 200
+[2025-11-16 11:46:26] CRITICAL: Request from 192.168.17.186 - Status: 200
+[2025-11-16 11:46:26] CRITICAL: Request from 192.168.217.42 - Status: 401
+[2025-11-16 11:46:26] ERROR: Request from 192.168.127.140 - Status: 200
+192.168.164.49 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 200 1234
+[2025-11-16 11:46:26] INFO: Request from 192.168.164.49 - Status: 503
+[2025-11-16 11:46:26] ERROR: Request from 192.168.139.55 - Status: 201
+[2025-11-16 11:46:26] INFO: Request from 192.168.68.204 - Status: 401
+[2025-11-16 11:46:26] INFO: Request from 192.168.66.52 - Status: 401
+2025-11-16 11:46:26 device-monitor INFO: IP 192.168.43.238 accessed endpoint, response 200
+2025-11-16 11:46:26 device-monitor INFO: IP 192.168.246.76 accessed endpoint, response 304
+[2025-11-16 11:46:26] INFO: Request from 192.168.46.173 - Status: 200
+192.168.143.61 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 200 1234
+[2025-11-16 11:46:26] ERROR: Request from 192.168.12.116 - Status: 304
+192.168.17.186 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 200 1234
+192.168.146.212 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 502 1234
+2025-11-16 11:46:26 device-monitor WARN: IP 192.168.255.126 accessed endpoint, response 200
+2025-11-16 11:46:26 device-monitor INFO: IP 192.168.246.76 accessed endpoint, response 200
+[2025-11-16 11:46:26] INFO: Request from 192.168.84.120 - Status: 404
+[2025-11-16 11:46:26] WARN: Request from 192.168.250.179 - Status: 400
+2025-11-16 11:46:26 device-monitor INFO: IP 192.168.66.77 accessed endpoint, response 200
+[2025-11-16 11:46:26] WARN: Request from 192.168.38.107 - Status: 401
+192.168.217.42 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 403 1234
+[2025-11-16 11:46:26] INFO: Request from 192.168.246.76 - Status: 401
+192.168.61.162 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 403 1234
+2025-11-16 11:46:26 device-monitor INFO: IP 192.168.59.60 accessed endpoint, response 201
+192.168.219.144 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 200 1234
+192.168.147.14 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 502 1234
+2025-11-16 11:46:26 device-monitor WARN: IP 192.168.223.115 accessed endpoint, response 403
+192.168.27.222 - - [2025-11-16 11:46:26] "GET /api/devices HTTP/1.1" 200 1234

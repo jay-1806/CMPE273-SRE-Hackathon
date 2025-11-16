@@ -17,6 +17,15 @@ function checkAuth() {
 async function apiCall(endpoint, method = 'GET', body = null) {
     const token = localStorage.getItem('access_token');
 
+    console.log('API Call:', method, endpoint);
+    console.log('Token exists:', !!token);
+
+    if (!token) {
+        console.error('No token found, redirecting to login');
+        window.location.href = '/login';
+        return null;
+    }
+
     const options = {
         method,
         headers: {
@@ -25,20 +34,34 @@ async function apiCall(endpoint, method = 'GET', body = null) {
         }
     };
 
-    if (body) {
+    if (body && method !== 'GET') {
         options.body = JSON.stringify(body);
     }
 
-    const response = await fetch(`${API_BASE}${endpoint}`, options);
+    try {
+        const response = await fetch(`${API_BASE}${endpoint}`, options);
 
-    if (response.status === 401) {
-        // Token expired, redirect to login
-        localStorage.removeItem('access_token');
-        window.location.href = '/login';
-        return null;
+        console.log('Response status:', response.status);
+
+        if (response.status === 401) {
+            console.error('Token expired or invalid');
+            localStorage.removeItem('access_token');
+            localStorage.removeItem('username');
+            window.location.href = '/login';
+            return null;
+        }
+
+        if (!response.ok) {
+            const errorText = await response.text();
+            console.error('API Error:', response.status, errorText);
+            throw new Error(`HTTP ${response.status}: ${errorText}`);
+        }
+
+        return await response.json();
+    } catch (error) {
+        console.error('Fetch error:', error);
+        throw error;
     }
-
-    return response.json();
 }
 
 // Load dashboard data
@@ -250,34 +273,55 @@ document.getElementById('generateLogsBtn').addEventListener('click', async () =>
     }
 });
 
-// AI Query
+// AI Query - SIMPLIFIED
 document.getElementById('aiQueryBtn').addEventListener('click', async () => {
-    const input = document.getElementById('aiQueryInput');
-    const query = input.value.trim();
-
+    const query = document.getElementById('aiQueryInput').value.trim();
     if (!query) {
         alert('Please enter a query');
         return;
     }
 
     const btn = document.getElementById('aiQueryBtn');
+    const responseDiv = document.getElementById('aiResponse');
+    const textDiv = document.getElementById('aiResponseText');
+    
     btn.disabled = true;
     btn.textContent = 'Asking AI...';
+    
+    // CLEAR previous response
+    responseDiv.style.display = 'block';
+    textDiv.textContent = 'Processing...';
+    textDiv.style.color = ''; // Reset color
 
     try {
-        const result = await apiCall(`/monitoring/ai/query?query=${encodeURIComponent(query)}`, 'POST');
-
-        if (result && result.response) {
-            document.getElementById('aiResponse').style.display = 'block';
-            document.getElementById('aiResponseText').textContent = result.response;
-
-            if (result.mock) {
-                document.getElementById('aiResponseText').textContent += '\n\n(Note: This is a mock response. Add your Cohere API key for real AI responses.)';
+        const token = localStorage.getItem('access_token');
+        const url = `/api/monitoring/ai/query?query=${encodeURIComponent(query)}&include_context=true`;
+        
+        const response = await fetch(url, {
+            method: 'POST',
+            headers: {
+                'Authorization': `Bearer ${token}`,
+                'Content-Type': 'application/json'
             }
+        });
+
+        const result = await response.json();
+
+        // Display ONLY the response, nothing else
+        if (result.response) {
+            textDiv.textContent = result.response;
+            
+            // Add note ONLY if it's actually a mock
+            if (result.mock === true) {
+                textDiv.textContent += '\n\n📝 Note: Using mock response. Cohere API may not be configured correctly.';
+            }
+        } else {
+            textDiv.textContent = 'Error: No response received';
+            textDiv.style.color = 'red';
         }
     } catch (error) {
-        console.error('AI query error:', error);
-        alert('Error processing AI query');
+        textDiv.textContent = 'Error: ' + error.message;
+        textDiv.style.color = 'red';
     } finally {
         btn.disabled = false;
         btn.textContent = 'Ask AI';
